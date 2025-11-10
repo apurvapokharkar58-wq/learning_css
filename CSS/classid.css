@@ -1,0 +1,12 @@
+.t_color{
+    color: blueviolet;
+}
+#t_color{
+    color: red;
+}
+.t_size{
+    font-size: 100px;
+}
+.t_left{
+    text-align: left;
+}

@@ -1,0 +1,31 @@
+.b_prop{
+    border: 10px solid rgb(85, 255, 0);
+}
+/* .b_prop1{
+    border: 20px dotted blueviolet;
+    height: 250px;
+    width: 250px
+}
+.b_prop2{
+    border: 20px dashed blueviolet;
+    height: 250px;
+    width: 250px;
+} */
+.b_radius{
+    border-radius: 50px 20px 50px 20px;
+    /* /* border-radius: 50px; 
+    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 60x;
+    border-bottom-left-radius: 30px; */
+}
+.b_color{
+    border :25px double; 
+    border-color:aqua yellowgreen red goldenrod;
+    /* border-top-color: blueviolet;
+    border-right-color: red;
+    border-bottom-color:blueviolet ;
+    border-left-color: red; */
+
+
+}

@@ -10,10 +10,10 @@
 .t_right{
     text-align: right;
 }
-.t_right{
+.t_left{
     text-align: left;
 }
-.t_{
+.t_centre{
     text-align: center;
 }
 .t_line{
@@ -39,8 +39,8 @@
     line-height: 40px;
 }
 .t_shadow{
-    color: lab(47.5% 70.16 53.4);
-    text-shadow: 10px 0dvb 3px hsl(16, 57%, 44%);
+    color: yellowgreen;
+    text-shadow: 10px 0dvb 3px hsl(9, 57%, 44%);
     font-size: 120px;
     text-align: center;
 }
@@ -57,6 +57,16 @@
     font-size: 120px;
     text-align: center;
 
+}
+.b_shadow{
+    box-shadow: 15px 10px 20px black;
+}
+.img_ratio{
+    width: 700px;
+    height: 500px;
+}
+.d_shadow{
+    filter: drop-shadow(3px 5px 10px rgb(77, 16, 220));
 }
 
 

@@ -1,0 +1,30 @@
+.Hall{
+    position:relative;
+    height:350px;
+    width:350px;
+    background-color:black;
+    top:30px;
+    left:100px;
+}
+#tv{
+    position:absolute;
+    height:80px;
+    width:150px;
+    background-color: yellow;
+    left:150px;
+}
+#sofa{
+    position:absolute;
+    height:80px;
+    width:100px;
+    background-color:red;
+    left:100px;
+}
+#fridge{
+    position:absolute;
+    height:200px;
+    width:80px;
+    background-color:blueviolet;
+    right:100px;
+    bottom:10px;
+}

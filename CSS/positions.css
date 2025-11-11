@@ -1,0 +1,30 @@
+.box{
+    width:150px;
+    height:150px;
+    background-color: pink;
+    border: 5px solid blueviolet;
+    margin-bottom: 20px;
+    
+}
+.box1{
+    position:static;
+}
+.box2{
+    position:Relative;
+    left:200px;
+    top:60px;
+}
+.box3{
+    position:Absolute;
+    left:400px;
+    top:40px;
+}
+.box4{
+    position:sticky;
+    top:0px;
+}
+.box5{
+    position:fixed;
+    bottom:0px;
+    right:10px
+}

@@ -1,0 +1,17 @@
+.flex-items{
+    background-color:brown;
+    height:500px;
+    width:500px;
+    margin:20px;
+    color:white;
+    font-size:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}

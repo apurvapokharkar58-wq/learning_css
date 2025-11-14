@@ -1,0 +1,34 @@
+h1{
+    color: brown;
+    font-size: 30px;
+}
+.h_effect:hover{
+    color:blueviolet;
+    font-size: 50px;
+    background-color: yellow;
+    text-shadow: 5px 8px 10px red;
+
+}
+.a_effect:hover{
+    color: yellow;
+    font-size: 100px;
+    cursor:pointer;
+}
+input:focus{
+    background-color: brown;
+    color:white;
+}
+a.visited{
+    color:green;
+}
+p::first-letter{
+    color: blueviolet;
+}
+p::first-line{
+    color: blueviolet;
+}
+::selection{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}

@@ -1,0 +1,30 @@
+.text_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana;
+    letter-spacing: 4px;
+    font-size:60px;
+    font-weight: 800px;
+}
+.text_container > b{
+    height: 70px;
+    box-shadow: 0px 6px 2px gray;
+    background: linear-gradient(to right,red,orange,blue );
+    background-clip: text;
+    color:transparent;
+    transform-origin: top;
+    /* transform:rotateX(-85deg); */
+    animation:getup 10s infinite;
+}
+.text_container>b:nth-child(1){animation-delay:0s;}
+.text_container>b:nth-child(2){animation-delay:0.25s;}
+.text_container>b:nth-child(3){animation-delay:0.50s;}
+.text_container>b:nth-child(4){animation-delay:0.75s;}
+.text_container>b:nth-child(5){animation-delay:1s;}
+.text_container>b:nth-child(6){animation-delay:1.25s;}
+ @keyframes getup{
+    from{transform: rotateX(-85deg)}
+    10%,50%{ transform:rotateX(0deg)}
+    60%, to{ transform: rotateX(-85deg)}
+ }
